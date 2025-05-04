@@ -1,0 +1,86 @@
+[
+  {
+    "id": "2n2222",
+    "name": "2N2222",
+    "type": "Transistor",
+    "description": "NPN general purpose amplifier",
+    "manufacturer": "ON Semiconductor",
+    "package": "TO-92",
+    "specifications": {
+      "Collector-Emitter Voltage (Vce)": "40V",
+      "Collector-Base Voltage (Vcb)": "60V",
+      "Emitter-Base Voltage (Veb)": "6V",
+      "Collector Current (Ic)": "800mA",
+      "Power Dissipation (Pd)": "500mW",
+      "Transition Frequency (ft)": "250MHz",
+      "Collector-Emitter Saturation Voltage (Vce(sat))": "0.3V",
+      "DC Current Gain (hFE)": "100"
+    }
+  },
+  {
+    "id": "2n3904",
+    "name": "2N3904",
+    "type": "Transistor",
+    "description": "NPN general purpose transistor",
+    "manufacturer": "ON Semiconductor",
+    "package": "TO-92",
+    "specifications": {
+      "Collector-Emitter Voltage (Vce)": "40V",
+      "Collector-Base Voltage (Vcb)": "40V",
+      "Emitter-Base Voltage (Veb)": "6V",
+      "Collector Current (Ic)": "200mA",
+      "Power Dissipation (Pd)": "625mW",
+      "Transition Frequency (ft)": "300MHz",
+      "Collector-Emitter Saturation Voltage (Vce(sat))": "0.2V",
+      "DC Current Gain (hFE)": "150"
+    }
+  },
+  {
+    "id": "irf540n",
+    "name": "IRF540N",
+    "type": "MOSFET",
+    "description": "N-Channel 100V 33A Power MOSFET",
+    "manufacturer": "Infineon",
+    "package": "TO-220",
+    "specifications": {
+      "Drain-Source Voltage (Vds)": "100V",
+      "Gate-Source Voltage (Vgs)": "20V",
+      "Drain Current (Id)": "33A",
+      "Power Dissipation (Pd)": "130W",
+      "Rds(on)": "44mΩ",
+      "Gate Charge (Qg)": "71nC"
+    }
+  },
+  {
+    "id": "lm358",
+    "name": "LM358",
+    "type": "IC",
+    "description": "Dual Operational Amplifier",
+    "manufacturer": "Texas Instruments",
+    "package": "SOIC-8",
+    "specifications": {
+      "Supply Voltage": "3V to 32V",
+      "Input Offset Voltage": "2mV",
+      "Input Bias Current": "20nA",
+      "Gain Bandwidth Product": "1.1MHz",
+      "Slew Rate": "0.5V/μs",
+      "CMRR": "85dB"
+    }
+  },
+  {
+    "id": "ne555",
+    "name": "NE555",
+    "type": "IC",
+    "description": "Timer IC",
+    "manufacturer": "Texas Instruments",
+    "package": "DIP-8",
+    "specifications": {
+      "Supply Voltage": "4.5V to 16V",
+      "Supply Current": "10mA",
+      "Timing Range": "μs to hours",
+      "Max Operating Frequency": "100kHz",
+      "Temperature Stability": "50ppm/°C",
+      "Output Current": "200mA"
+    }
+  }
+]

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -45,6 +46,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <h1 className="text-3xl font-bold mb-4">Electronic Component Database</h1>
+        <p className="mb-6 text-lg text-muted-foreground">Find, compare, and calculate electronic parts</p>
+        <Button variant="default">Test shadcn/ui Button</Button>
       </main>
       <footer className={styles.footer}>
         <a

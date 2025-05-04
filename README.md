@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Electronic Component App
 
-## Getting Started
+A comprehensive web application for electronic component database and circuit templates.
 
-First, run the development server:
+## Features
 
-```bash
+- Component database with detailed specifications
+- Circuit templates with schematics
+- Premium circuit templates with Stripe integration
+- Electronic calculators
+- Component equivalents finder
+- Mobile-responsive design
+
+## Deployment on AWS Amplify
+
+### Prerequisites
+
+1. AWS Account
+2. Stripe Account (for premium templates)
+3. Node.js 18+ and npm
+
+### Environment Variables
+
+Set the following environment variables in AWS Amplify:
+
+- `NEXT_PUBLIC_APP_URL`: Your application's URL
+- `STRIPE_SECRET_KEY`: Your Stripe secret key
+- `STRIPE_WEBHOOK_SECRET`: Your Stripe webhook secret
+
+### Deployment Steps
+
+1. Connect your repository to AWS Amplify
+2. AWS Amplify will automatically detect the build settings from amplify.yml
+3. Add the environment variables in the Amplify Console
+4. Deploy the application
+
+## Local Development
+
+\`\`\`bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Build for production
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Start production server
+npm start
+\`\`\`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+- `/app`: Next.js App Router pages and API routes
+- `/components`: Reusable React components
+- `/hooks`: Custom React hooks
+- `/lib`: Utility functions and data handling
+- `/public`: Static assets
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
